@@ -6,10 +6,6 @@
 
 WebServer server(80); //ポート80番
 
-// WiFi情報
-// extern char *ssid = "Buffalo-G-1230";
-// extern char *pass = "3iyru46wnpvee";
-
 // HTMLを組み立てる
 String html = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>LEDをON/OFFする</title></head><body><p>リンクをクリックするとLEDがON/OFFします</p><ul><li><a href=\"/?button=on\">ON</a></li><li><a href=\"/?button=off\">OFF</a></li></ul></body></html>";
 
